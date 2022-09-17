@@ -8,7 +8,9 @@ import App from './App';
 // ReactDOM.render(<App/>, document.getElementById('root'));
 
 
-//The root can be used to render a React element into the DOM with render:
 const container = document.getElementById('root');
+
 const root = createRoot(container);
+
+//The root can be used to render a React element into the DOM with render:
 root.render(<App/>);
